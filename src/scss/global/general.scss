@@ -1,0 +1,68 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lexend', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: $white;
+}
+
+a, button {
+	transition: all .3s;
+}
+
+a {
+	text-decoration: none;
+	color: $white;
+}
+
+ul {
+	list-style-type: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+	height: 100%;
+	object-fit: contain;
+}
+
+.container {
+	padding: 0 16px;
+	max-width: 1672px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+button {
+	background: none;
+	cursor: pointer;
+}
+
+.button {
+	font-family: "Helvetica Neue", sans-serif;
+	color: $white;
+	background-color: $blue;
+	text-transform: uppercase;
+	border: 1px solid $blue;
+
+	&:hover {
+		background-color: $white;
+		color: $blue;
+	}
+}
