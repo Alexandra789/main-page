@@ -41,17 +41,9 @@
 						line-height: 20px;
 						display: inline-block;
 
-						&:after {
-							content: "";
-							display: block;
-							width: 0;
-							height: 2px;
-							background-color: $blue;
-							transition: width .3s ease-in 0s;
-						}
-
-						&:hover:after {
-							width: 100%;
+						&:hover {
+							text-decoration-line: underline;
+							color: $blue;
 						}
 					}
 				}
@@ -79,15 +71,23 @@
 				}
 			}
 
-			button {
+			.language-btn {
 				padding: 12.5px;
 				font-size: 16px;
 				line-height: 20px;
+			}
+
+			button {
 				display: flex;
 				justify-content: center;
 				align-items: center;
+
+				a {
+					padding: 12.5px;
+					font-size: 16px;
+					line-height: 20px;
+				}
 			}
 		}
-
 	}
 }
