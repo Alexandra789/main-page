@@ -212,10 +212,10 @@
 				max-height: 431px;
 				border-radius: 50px;
 			}
-			@media (max-height: 1040px) {
+			@media (min-width: 1550px) and (max-height: 1040px) {
 				max-height: 400px;
 			}
-			@media (max-height: 800px) {
+			@media (min-width: 1550px) and (max-height: 800px) {
 				max-height: 300px;
 			}
 
