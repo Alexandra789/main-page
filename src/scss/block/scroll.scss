@@ -1,0 +1,26 @@
+.blog-area {
+	.scroll-content {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+	}
+
+	.scrollbar-track.scrollbar-track-y {
+		display: block;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		right: 16px;
+		border-radius: 4px;
+		width: 8px;
+		background: $dark_gray;
+		@media (max-width: 596px) {
+			width: 4px;
+			right: 6px;
+		}
+
+		.scrollbar-thumb {
+			background: $blue;
+			width: 4px;
+		}
+	}
+}
