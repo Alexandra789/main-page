@@ -177,6 +177,8 @@
 		font-size: 24px;
 		font-weight: 600;
 		line-height: 32px;
+		position: relative;
+		z-index: 9;
 
 		@media (max-width: 1665px) {
 			margin: 48px auto 0 auto;
