@@ -1,13 +1,10 @@
 .footer {
-
 	&__navigation {
 		border-radius: 64px 64px 0 0;
 		border-top: 4px solid $blue;
 		border-right: 4px solid $blue;
 		border-left: 4px solid $blue;
 		padding: 40px 140px 24px 140px;
-		background: $dark_blue;
-		position: relative;
 		@media (max-width: 700px) {
 			padding: 20px;
 			border-radius: 50px 50px 0 0;
