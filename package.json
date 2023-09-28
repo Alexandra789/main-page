@@ -40,6 +40,6 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
-    "smooth-scrollbar": "^8.8.4"
+    "overlayscrollbars": "^2.3.2"
   }
 }

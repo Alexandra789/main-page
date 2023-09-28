@@ -1,25 +1,25 @@
 .blog-area {
-	.scroll-content {
-		display: flex;
-		flex-direction: column;
-		gap: 16px;
-	}
-
-	.scrollbar-track.scrollbar-track-y {
-		display: block;
-		top: 50%;
-		transform: translate(-50%, -50%);
-		right: 16px;
+	.os-scrollbar .os-scrollbar-track {
+		height: 403px;
 		border-radius: 4px;
 		width: 8px;
 		background: $dark_gray;
+		right: 16px;
+		top: 96px;
 		@media (max-width: 596px) {
-			width: 4px;
 			right: 6px;
+			width: 4px;
+			top: 60px;
+			height: 301px;
 		}
-
-		.scrollbar-thumb {
-			background: $blue;
+		&:hover{
+			background: $dark_gray;
+		}
+	}
+	.os-scrollbar .os-scrollbar-handle{
+		background: $blue;
+		width: 8px;
+		@media (max-width: 596px) {
 			width: 4px;
 		}
 	}
